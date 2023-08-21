@@ -1,0 +1,35 @@
+   85  mkdir Checkpoint-DanielaDucuar
+   86  mv Checkpoint-DanielaDucuar Checkpoint-DanielaDucuara
+   87  cd Checkpoint-DanielaDucuara/
+   88  git init
+   89  git branch -M main
+   90  git branch -M main
+   91  git remote add origin https://github.com/Daniela1421/Checkpoint-DanielaDucuara.git
+   92  touch main.js index.html
+   93  git add .
+   94  git commit -m "commit 01 de DanielaDucuara"
+   95  git push origin main
+   96  git checkout -b feature
+   97  mkdir Hardware Software SeguridadInformatica
+   98  cd Hardware/
+   99  touch resumen.txt
+  100  cd ..
+  101  cd Software/
+  102  touch resumen.txt
+  103  cd ..
+  104  cd SeguridadInformatica/
+  105* 
+  106  git add . 
+  107  git commit -m "commit 02 de DanielaDucuara"
+  108  git push origin feature
+  109  git checkout main
+  110  mv main.js resumenHardward.txt
+  111  cd ..
+  112  mv main.js resumenHardward.txt
+  113  mv index.html resumenSoftware.txt
+  114  history 15 > comandos.txt
+  115  cat comandos.txt
+  116  history 30 > comandos.txt
+  117  cat comandos.txt
+  118  history
+  119  history 35 > comandos.txt
